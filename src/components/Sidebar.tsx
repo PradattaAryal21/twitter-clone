@@ -20,7 +20,7 @@ export default async function SidebarNav() {
   if (!user) return null; // Ensure user is available
 
   return (
-    <div className="sticky top-24 flex flex-col rounded-lg justify-between p-4   w-[280px]">
+    <div className="sticky top-24 flex flex-col rounded-lg justify-between p-4  border-2 border-black dark:border-white  w-[280px]">
       <div className="space-y-2">
         {/* Navigation Items */}
         <nav className="space-y-1">
